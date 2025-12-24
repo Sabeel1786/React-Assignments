@@ -1,0 +1,20 @@
+
+.cards {
+    box-shadow: 2px 2px 2px 2px gray;
+    width: 100%;      
+    min-height: 40px; 
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cards:hover{
+    transform: translateY(1px);
+    box-shadow: 2px 2px 2px 2px black;
+}
+.icon:hover{
+    color: red;
+    
+}
